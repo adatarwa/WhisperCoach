@@ -1,0 +1,21 @@
+# WhisperCoach dependencies
+
+# Audio capture
+pyaudio==0.2.14
+
+# Local speech-to-text (runs fully offline)
+openai-whisper==20231117
+torch>=2.0.0
+
+# Claude API — the coaching brain
+anthropic>=0.34.0
+
+# Environment variable loading
+python-dotenv==1.0.0
+
+# Optional: faster Whisper on CPU
+# faster-whisper==1.0.1
+
+# System tray icon + menu bar
+pystray==0.19.5
+Pillow>=10.0.0
